@@ -18,8 +18,9 @@
 
 </head>
 
+<!-- oncontextmenu="return false" -->
 
-<body oncontextmenu="return false">
+<body>
     <header>
         <nav>
             <h3 class="navTaitle">Ma<span class="prymary-color">r</span>y</h3>
@@ -192,7 +193,27 @@
     </main>
 
     <footer>
-        <div style="height: 300px;"></div>
+        <div class="foot-left">
+            <h2 class="foot-left-headding">Lets Connect</h2>
+            <p class="foot-description">Please fill out the form on this section to contact with me or call between 9:00
+                A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <ul class="social-links">
+                <li class="link-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class="link-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="link-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="foot-right">
+            <h2 class="foot-right-headding">Let’s Message me</h2>
+            <form action="#">
+                <label for="name"><input type="text" name="name" id="name" placeholder="Your name" required></label><br>
+                <label for="email"><input type="email" name="email" id="email" placeholder="Your Email"
+                        required></label><br>
+                <label for="textarea"><textarea name="massage" id="massage" cols="20" rows="15" required
+                        placeholder="Massage" maxlength="150"></textarea></label><br>
+                <input class="btnPrimary" type="submit" value="Submit">
+            </form>
+        </div>
     </footer>
 </body>
 
