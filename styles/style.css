@@ -206,6 +206,7 @@ main {
   /* display: flex;
   justify-content: center; */
 }
+/* what i do part */
 .w-d-title {
   margin-bottom: 20px;
   margin-top: 100px;
@@ -219,6 +220,7 @@ main {
   width: 909px;
   flex-direction: column;
 }
+/* skill cards part */
 .skills-parent {
   display: flex;
   justify-content: center;
@@ -229,10 +231,10 @@ main {
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   width: 267px;
-  height: 377px;
+  height: 340px;
   align-items: flex-start;
   flex-direction: column;
-  padding: 10px;
+  padding: 13px;
   margin: 0px 10px;
 }
 .skills img {
