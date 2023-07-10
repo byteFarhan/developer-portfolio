@@ -73,7 +73,9 @@ a {
 /* Header styles */
 header {
   background: #fff8f3;
-  background: url("../images/header_bg.png") bottom right no-repeat;
+  background-image: url("../images/header_bg.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 .banner-style {
@@ -139,6 +141,7 @@ header {
 main {
   width: 1140px;
   margin: auto;
+  background: #fff;
 }
 .common-title {
   color: #181818;
@@ -177,7 +180,7 @@ main {
 }
 .about-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .about-info {
   text-align: center;
@@ -185,7 +188,7 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .a-info-taitle {
   /* margin-bottom: 0px; */
@@ -193,4 +196,59 @@ main {
 }
 .a-info-description {
   font-size: 15px;
+}
+/* what i do styles */
+.work-description {
+  text-align: center;
+  width: 827px;
+  margin: auto;
+  margin-bottom: 50px;
+  /* display: flex;
+  justify-content: center; */
+}
+.w-d-title {
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.w-d-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  width: 909px;
+  flex-direction: column;
+}
+.skills-parent {
+  display: flex;
+  justify-content: center;
+}
+.skills {
+  display: flex;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 267px;
+  height: 377px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0px 10px;
+}
+.skills img {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+}
+.skills-taitle {
+  padding: 20px 0;
+}
+.skills-description {
+  display: flex;
+  width: 201px;
+  flex-direction: column;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
