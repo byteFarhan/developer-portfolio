@@ -74,8 +74,12 @@ a {
 /* Header styles */
 header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
-  background-position: bottom right;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position: bottom right, bottom left;
+  background-origin: padding-box, padding-box;
+
+  /* background-size: contain; */
   background-repeat: no-repeat;
 }
 
@@ -316,6 +320,7 @@ footer {
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: -250px;
+  /* align-self: auto; */
 }
 .foot-left-headding {
   color: #181818;
@@ -339,7 +344,7 @@ footer {
 }
 .link-item {
   list-style: none;
-  margin-right: 20px;
+  margin-right: 25px;
   /* padding: 10px; */
   font-size: x-large;
 }
